@@ -1,0 +1,25 @@
+{
+  "name": "social-example",
+  "description": "Social media example",
+  "keywords": ["social","media","example"],
+  "version": "0.0.1",
+  "homepage": "https://github.com/rjrodger/social-example",
+  "author": "Richard Rodger <richard@ricebridge.com> (http://richardrodger.com/)",
+  "contributors": [
+    "Richard Rodger <richard@ricebridge.com> (http://richardrodger.com/)"
+  ],
+  "dependencies": {
+    "dispatch": "*",
+    "node-uuid": "*",
+    "connect": "1.8.6",
+    "request": "*",
+    "everyauth": "git://github.com/rjrodger/everyauth.git#1755a1f5fb4d68fa7319494f873da86de95d504a",
+    "node-oauth": "*",
+    "twitter": "*",
+    "facebook-client": "*",
+    "data-capsule":"git://github.com/rjrodger/data-capsule.git"
+  },
+  "engines": {
+    "node": ">=0.4"
+  }
+}
