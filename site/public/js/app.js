@@ -47,10 +47,6 @@ var bb = {
 bb.init = function() {
 
   bb.model.State = Backbone.Model.extend({    
-    defaults: {
-      content: 'none'
-    },
-
     initialize: function( items ) {
       var self = this
       _.bindAll(self)
