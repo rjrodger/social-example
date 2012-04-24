@@ -15,5 +15,7 @@
     <plugin name="Temperature" value="org.apache.cordova.TempListener"/>
     <plugin name="FileTransfer" value="org.apache.cordova.FileTransfer"/>
     <plugin name="Capture" value="org.apache.cordova.Capture"/>
-    <plugin name="Battery" value="org.apache.cordova.BatteryListener"/>
+    <plugin name="Battery" value="org.apache.cordova.BatteryListener"/><plugin
+    	name="FlurryPlugin" value="org.apache.cordova.plugins.flurry.FlurryPlugin">
+</plugin>
 </plugins>

@@ -384,9 +384,22 @@ app.init = function() {
   app.view.income = new bb.view.EntryList('income')
   app.view.expend = new bb.view.EntryList('expend')
 
+
+  $(document).bind('pagechange',function(){
+    alert('pc:'+window.plugins.FlurryPlugin)
+    window.plugins.FlurryPlugin.pageView()
+  })
+
+
   app.start()
 }
 
 
 app.boot()
-$(app.init)
+
+if( window.PhoneGap ) {
+  document.addEventListener("deviceready",app.init,false);
+}
+else {
+  $(app.init)
+}

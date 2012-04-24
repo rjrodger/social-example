@@ -6,6 +6,8 @@ cp ../site/public/img/*.png assets/www/img
 cp ../site/public/css/*.css assets/www/css
 cp ../site/public/css/images/*.png assets/www/css/images
 
+cp ../site/public/js/android-flurry.js assets/www/js/flurry.js
+
 cp ../site/public/css/android/style.css assets/www/css/style.css
 
 
