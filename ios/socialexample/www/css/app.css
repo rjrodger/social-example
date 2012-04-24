@@ -1,0 +1,131 @@
+
+
+div.header {
+    height: 40px;
+}
+
+h1.ui-title {
+    padding-top: 4px !important;
+    font-size: 0.8em !important;
+}
+
+div.ui-content {
+    padding: 5px 10px;
+}
+
+h3 {
+    margin: 15px 0px 5px 0px;
+}
+
+div.monthentry {
+  padding: 10px 0px !important;
+}
+
+input.amount {
+    width: 130px;
+}
+
+
+#deathbg {margin:0 auto;  padding-top:10px; width:100%; xheight:60px;     border:1px solid #600; }
+#deathbg1 {margin:0 auto;  padding-top:10px; width:100%; xheight:60px;     border:1px solid #600; }
+
+div.clock {
+  height:73px;
+
+  background-color: #600; 
+  background-image: url(../img/shiny.png);
+  background-position: 0% 0%;
+  background-repeat: repeat-x;
+  background-size: 100% 55%;    
+  border: 1px solid #900;
+  border-radius: 6px;
+}
+
+
+div.digits div.year   { margin-left: 30px; }
+div.digits div.month  { margin-left: 33px; }
+div.digits div.week   { margin-left: 20px; }
+div.digits div.day    { margin-left:  6px; }
+div.digits div.hour   { margin-left: 42px; }
+div.digits div.minute { margin-left: 45px; }
+div.digits div.second { margin-left: 45px; }
+
+
+#death div.sep { width: 11px; height: 31px; float: left;}
+death div.sep { width: 11px; height: 50px; background-color:#FFFFFF; float: left;}
+#death div { width: 21px; height: 31px; background: url(../img/digits.png) no-repeat 0px 0px; float: left; }
+#death div.d1 { background-position: -0px 0px;}
+#death div.d2 { background-position: -21px 0px;}
+#death div.d3 { background-position: -42px 0px;}
+#death div.d4 { background-position: -63px 0px;}
+#death div.d5 { background-position: -84px 0px;}
+#death div.d6 { background-position: -105px 0px;}
+#death div.d7 { background-position: -126px 0px;}
+#death div.d8 { background-position: -147px 0px;}
+#death div.d9 { background-position: -168px 0px;}
+#death div.d0 { background-position: -189px 0px;}
+
+
+
+#death1 div.sep { width: 11px; height: 31px; float: left;}
+death1 div.sep { width: 11px; height: 50px; background-color:#FFFFFF; float: left;}
+#death1 div { width: 21px; height: 31px; background: url(../img/digits.png) no-repeat 0px 0px; float: left; }
+#death1 div.d1 { background-position: -0px 0px;}
+#death1 div.d2 { background-position: -21px 0px;}
+#death1 div.d3 { background-position: -42px 0px;}
+#death1 div.d4 { background-position: -63px 0px;}
+#death1 div.d5 { background-position: -84px 0px;}
+#death1 div.d6 { background-position: -105px 0px;}
+#death1 div.d7 { background-position: -126px 0px;}
+#death1 div.d8 { background-position: -147px 0px;}
+#death1 div.d9 { background-position: -168px 0px;}
+#death1 div.d0 { background-position: -189px 0px;}
+
+div.labels { clear: left; position:relative; top:10px;}
+div.labels div { height: 20px; background: url(../img/labels.png) no-repeat 0px 0px; float: left; }
+div.labels div.year   { background-position:  -80px 0px; width:64px; margin-left:  5px; }
+div.labels div.month  { background-position: -198px 0px; width:76px; margin-left: 10px; }
+div.labels div.week   { background-position: -290px 0px; width:63px; margin-left: 10px; }
+div.labels div.day    { background-position: -380px 0px; width:51px; margin-left: 10px; }
+div.labels div.hour   { background-position: -497px 0px; width:63px; margin-left: 17px; }
+div.labels div.minute { background-position: -602px 0px; width:89px; margin-left: 10px; }
+div.labels div.second { background-position: -732px 0px; width:89px; margin-left: 10px; }
+
+
+
+div.minibuttons a {
+    width:92px;
+    font-size:0.7em;
+}
+
+
+
+a.social_login {
+  height: 74px;
+  line-height: 48px;
+  font-size: 20px;
+}
+
+a.twitter_login {
+    background: url("../img/twt-64.png") no-repeat 10px 5px;
+}
+
+a.facebook_login {
+    background: url("../img/fbk-64.png") no-repeat 10px 5px;
+}
+
+
+a.twitter_msg {
+    background: url("../img/twt-16.png") no-repeat 6px 6px;
+}
+
+a.facebook_msg {
+    background: url("../img/fbk-16.png") no-repeat 6px 6px;
+}
+
+
+
+#header_logout {
+    display: none;
+}
+
